@@ -1,14 +1,28 @@
 
 
 alert("welcom to our webbage my name is mohammad and i am a big fan for horses");
-/*var yes=true;
-if (yes==true) {console.log("horses lover")
+/*var horsesLover? = prompt("do you love horses?");
+
+function getHorsesLover?(isYouHorsesLover?) {
     
-} else {alert("Please take a looke to our webpage you will change your mind");
+    console.log(horsesLover?);
+
+    if (isYouHorsesLover?==yes) {console.log("horses lover")
     
-}*/
+} else if (isYouHorsesLover?==no) {alert("Please take a looke to our webpage you will change your mind");}
+
+else {
+        alert('please answer by yes or no only');
+    }
+}
+getHorsesLover?(horsesLover?);
+*/
+
+
 
 var favourteHorsesType = prompt("What is your favourt type of horses exept the other you can found below?")
+
+var getfavourteHorsesType = function () {
 
 
 while (favourteHorsesType !== 'arabian' && favourteHorsesType !== 'lusitano') {
@@ -61,11 +75,14 @@ while (favourteHorsesType !== 'arabian' && favourteHorsesType !== 'lusitano') {
 
     }
 
-    console.log(imagesGroup);
+    //console.log(imagesGroup);
     //console.log(linksGroup);
+    return imagesGroup
 
-    document.write(imagesGroup);
+    document.write(getfavourteHorsesType());
    // document.write(linksGroup);
+
+}
 
 
 
